@@ -86,7 +86,28 @@
     </form>
     <br><br>
 
+        <!-- 
+    Validação de formulário 
+    Classes: is-valid, is-invalid, invalid-feedback
+    -->
+    <form>
+        
+        <div class="form-group">
+            <label for="email-usuario">Email</label>
+            <input class="form-control is-valid w-50" type="email" id="email-usuario" placeholder="Digite seu e-mail">
+        </div>
 
+        <div class="form-group">
+            <label for="senha-usuario">Senha</label>
+            <input class="form-control is-invalid w-50" type="password" id="senha-usuario" placeholder="Digite sua senha">
+            <div class="invalid-feedback">
+                Senha inválida
+            </div>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Logar">
+
+    </form>
 
 
     <!-- Optional JavaScript -->
