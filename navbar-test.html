@@ -8,15 +8,25 @@
     <title>Navbar - BootStrap4</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm justify-content w-75 mx-auto">
+    <nav class="navbar  navbar-expand-sm navbar-light w-75 mx-auto ">
         <a class="navbar-brand" href=""> <h1>Logo</h1></a>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a  class = "nav-link" href="">Início</a></li>
-            <li class="nav-item"><a  class = "nav-link" href="">Produtos</a></li>
-            <li class="nav-item">
-                <a class = "nav-link" href="">Serviços</a>
-            </li>
-        </ul>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a  class = "nav-link" href="">Início</a></li>
+                <li class="nav-item">
+                    <a  class = "nav-link" href="">Produtos</a></li>
+                <li class="nav-item">
+                    <a class = "nav-link" href="">Serviços</a>
+                </li>
+            </ul>
+        </div>
+       
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
